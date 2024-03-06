@@ -1,9 +1,18 @@
-document.getElementById("count-el").innerText = 0
+let countEl = document.getElementById("count-el")
 let count = 0;
 
 function increment() {
     // console.log("Button was clicked");
-    count = count + 1;
+    count += 1;
     // console.log(count);
-    document.getElementById("count-el").innerText = count;
+    countEl.innerText = count;
 }
+
+function save() {
+    console.log(count);
+}
+
+let welcomeEl = document.getElementById("welcome-el")
+let username = "Sadie"
+let greeting = "Welcome back, "
+welcomeEl.innerText = greeting + username
