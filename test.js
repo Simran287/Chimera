@@ -17,21 +17,21 @@
 // let fullname = firstname + " " + lastname
 // console.log(fullname)
 
-let points = 10;
-function add3Points() {
-    points += 3;
-}
-function removePoints() {
-    points -= 1;
-}
-console.log(points)
-add3Points()
-add3Points()
-removePoints()
-add3Points()
-removePoints()
-removePoints()
-console.log(points)
+// let points = 10;
+// function add3Points() {
+//     points += 3;
+// }
+// function removePoints() {
+//     points -= 1;
+// }
+// console.log(points)
+// add3Points()
+// add3Points()
+// removePoints()
+// add3Points()
+// removePoints()
+// removePoints()
+// console.log(points)
 
-let errorEl = document.getElementById("error-el");
-errorEl.innerText = "Something went wrong, please try again"
+// let errorEl = document.getElementById("error-el");
+// errorEl.innerText = "Something went wrong, please try again"
